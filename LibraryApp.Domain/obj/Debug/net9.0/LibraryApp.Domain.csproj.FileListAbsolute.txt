@@ -1,0 +1,11 @@
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/bin/Debug/net9.0/LibraryApp.Domain.deps.json
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/bin/Debug/net9.0/LibraryApp.Domain.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/bin/Debug/net9.0/LibraryApp.Domain.pdb
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/LibraryApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/LibraryApp.Domain.AssemblyInfoInputs.cache
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/LibraryApp.Domain.AssemblyInfo.cs
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/LibraryApp.Domain.csproj.CoreCompileInputs.cache
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/LibraryApp.Domain.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/refint/LibraryApp.Domain.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/LibraryApp.Domain.pdb
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/ref/LibraryApp.Domain.dll
