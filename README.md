@@ -41,8 +41,10 @@ LibraryApp/
 
 ### API (Backend)
 ```bash
-cd LibraryApp.API
+cd LibraryApp.Data
 dotnet ef database update
+cd ../LibraryApp.API
+
 dotnet run
 ```
 
