@@ -24,7 +24,7 @@ LibraryApp/
 ### Backend (.NET)
 - ASP.NET Core Web API
 - Entity Framework Core
-- SQL Server
+- POSTGRESQL
 - JWT Authentication + Refresh Token
 - Katmanlı mimari (Domain, Application, Data, API)
 
