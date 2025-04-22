@@ -1,4 +1,5 @@
 using AutoMapper;
+using LibraryApp.Domain.DTOs;
 using LibraryApp.Domain.DTOs.Create;
 using LibraryApp.Domain.DTOs.List;
 using LibraryApp.Domain.Entities;
@@ -23,6 +24,8 @@ public class BookRentalProfile : Profile
             }));
 
         CreateMap<BookRentalWithBookDTO, BookRental>().ReverseMap();
+        CreateMap<BookRentalDTO,BookRental>().ReverseMap();
+        CreateMap<BookRental,BookRentalDTO>().ReverseMap();
 
     }
 }

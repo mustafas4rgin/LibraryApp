@@ -13,3 +13,4 @@
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Application/obj/Debug/net9.0/refint/LibraryApp.Application.dll
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Application/obj/Debug/net9.0/LibraryApp.Application.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Application/obj/Debug/net9.0/ref/LibraryApp.Application.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Application/obj/Debug/net9.0/LibraryApp.Application.sourcelink.json

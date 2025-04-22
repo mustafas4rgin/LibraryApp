@@ -4,10 +4,8 @@
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/bin/Debug/net9.0/LibraryApp.Data.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/bin/Debug/net9.0/LibraryApp.Application.dll
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/bin/Debug/net9.0/LibraryApp.Domain.dll
-/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/bin/Debug/net9.0/LibraryApp.Infrastructure.dll
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/bin/Debug/net9.0/LibraryApp.Application.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/bin/Debug/net9.0/LibraryApp.Domain.pdb
-/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/bin/Debug/net9.0/LibraryApp.Infrastructure.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/obj/Debug/net9.0/LibraryApp.Data.csproj.AssemblyReference.cache
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/obj/Debug/net9.0/LibraryApp.Data.GeneratedMSBuildEditorConfig.editorconfig
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/obj/Debug/net9.0/LibraryApp.Data.AssemblyInfoInputs.cache
@@ -19,3 +17,4 @@
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/obj/Debug/net9.0/LibraryApp.Data.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/obj/Debug/net9.0/LibraryApp.Data.genruntimeconfig.cache
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/obj/Debug/net9.0/ref/LibraryApp.Data.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Data/obj/Debug/net9.0/LibraryApp.Data.sourcelink.json

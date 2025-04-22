@@ -10,6 +10,7 @@ public class AppDbContext : DbContext
     public DbSet<Book> Books {get; set;}
     public DbSet<Role> Roles {get; set;}
     public DbSet<BookRental> BookRents {get; set;}
+    public DbSet<RefreshToken> RefreshTokens {get; set;}
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);

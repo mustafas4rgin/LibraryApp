@@ -1,15 +1,19 @@
 using AutoMapper;
 using FluentValidation;
 using LibraryApp.Application.Concrete;
+using LibraryApp.Domain.DTOs;
 using LibraryApp.Domain.DTOs.Create;
+using LibraryApp.Domain.DTOs.List;
 using LibraryApp.Domain.DTOs.Update;
 using LibraryApp.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MyApp.Namespace
 {
     [Route("api/[controller]")]
+    [Authorize(Roles = "Admin ,Librarian")]
     [ApiController]
     public class BookRentalController : ControllerBase
     {
@@ -40,6 +44,30 @@ namespace MyApp.Namespace
                 return BadRequest(result.Message);
 
             return Ok(result);
+        }
+        [HttpGet("get-book-rentals")]
+        public async Task<IActionResult> GetAll(string? include)
+        {
+            var result = await _bookRentalService.ListBookRentalsAsync(include);
+
+            if (!result.Success)
+                return NotFound(result.Message);
+
+            var bookRentals = result.Data;
+
+            var dto = _mapper.Map<List<BookRentalDTO>>(bookRentals);
+
+            return Ok(dto);
+        }
+        [HttpDelete("Delete")]
+        public async Task<IActionResult> Delete([FromQuery]int userId, [FromQuery]int bookId)
+        {
+            var result = await _bookRentalService.DeleteBookRentalAsync(userId,bookId);
+
+            if (!result.Success)
+                return BadRequest(result.Message);
+
+            return Ok(result.Message);
         }
     }
 }

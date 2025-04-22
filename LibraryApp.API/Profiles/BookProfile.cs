@@ -19,8 +19,7 @@ public class BookProfile : Profile
             dest.ISBN = IsbnHelper.GenerateIsbn13();
         }
         });
-
-
+        
         CreateMap<UpdateBookDTO, Book>().ReverseMap();
 
         CreateMap<Book, BookDTO>()

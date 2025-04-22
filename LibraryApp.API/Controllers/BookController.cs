@@ -5,12 +5,14 @@ using LibraryApp.Domain.DTos.Create;
 using LibraryApp.Domain.DTOs.List;
 using LibraryApp.Domain.DTOs.Update;
 using LibraryApp.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace LibraryApp.API.Controllers
 {
+    [Authorize(Roles = "Admin ,Librarian")]
     [Route("api/[controller]")]
     [ApiController]
     public class BookController : GenericController<Book,CreateBookDTO,UpdateBookDTO,BookDTO>

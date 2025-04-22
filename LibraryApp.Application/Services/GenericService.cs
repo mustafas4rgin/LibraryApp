@@ -81,11 +81,16 @@ public class GenericService<T> : IGenericService<T> where T : EntityBase
             return new ErrorResult(ex.Message);
         }
     }
-    public async Task<IServiceResult> DeleteAsync(int id)
+    public async Task<IServiceResult> DeleteAsync(int id )
     {
         try
         {
-            await _genericRepository.DeleteByIdAsync<T>(id);
+            var entity = await _genericRepository.GetByIdAsync<T>(id);
+
+            if (entity is null)
+                return new ErrorResult("Data not found.");
+
+            await _genericRepository.DeleteAsync(entity);
             await _genericRepository.SaveChangesAsync();
 
             return new SuccessResult("Entity deleted successfully.");

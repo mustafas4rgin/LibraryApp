@@ -13,7 +13,9 @@ public class ServiceRegistrationProvider
             (typeof(IGenericService<>),typeof(GenericService<>)),
             (typeof(IUserService),typeof(UserService)),
             (typeof(IBookService),typeof(BookService)),
-            (typeof(IBookRentalService),typeof(BookRentalService))
+            (typeof(IBookRentalService),typeof(BookRentalService)),
+            (typeof(IAdminService),typeof(AdminService)),
+            (typeof(IAuthService),typeof(AuthService))
         };
         foreach (var service in servicesToRegister)
         {

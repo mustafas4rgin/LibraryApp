@@ -186,9 +186,10 @@ public class GenericServiceTests
 
         var testBook = new Book { Id = 1, Title = "Test book" };
 
+
         mockValidator.Setup(x => x.ValidateAsync(testBook, default))
                             .ReturnsAsync(new ValidationResult());
-        mockRepo.Setup(x => x.DeleteByIdAsync<Book>(id))
+        mockRepo.Setup(x => x.DeleteAsync(testBook))
                             .ThrowsAsync(new Exception("Database error."));
 
         var service = new GenericService<Book>(mockRepo.Object, mockValidator.Object);

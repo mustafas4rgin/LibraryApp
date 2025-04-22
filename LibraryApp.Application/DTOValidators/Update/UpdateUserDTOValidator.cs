@@ -10,7 +10,7 @@ public class UpdateUserDTOValidator : AbstractValidator<UpdateUserDTO>
         RuleFor(u => u.Address)
             .NotEmpty()
             .WithMessage("Address cannot be empty.")
-            .Length(5 - 150)
+            .Length(5 ,150)
             .WithMessage("Address should be between 5-150 characters.");
 
         RuleFor(u => u.Email)

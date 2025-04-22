@@ -29,7 +29,7 @@ public class UserValidator : AbstractValidator<User>
 
         RuleFor(u => u.Address)
             .NotEmpty()
-            .WithErrorCode("Address cannot be empty.")
+            .WithMessage("Address cannot be empty.")
             .Length(10,150)
             .WithMessage("Address must be between 10-150 characters.");
 
@@ -37,7 +37,8 @@ public class UserValidator : AbstractValidator<User>
             .NotNull()
             .WithMessage("ID cannot be null.")
             .GreaterThan(0)
-            .WithMessage("ID value must be greater than zero.");
+            .WithMessage("ID value must be greater than zero.")
+            .When(u => u.Id != 0);
 
         RuleFor(u => u.RoleId)
            .NotNull()

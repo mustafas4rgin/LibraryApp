@@ -11,17 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.API", "LibraryAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.Data", "LibraryApp.Data\LibraryApp.Data.csproj", "{6149DEA5-5F7D-4C52-9C23-8B82095BE1B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.Infrastructure", "LibraryApp.Infrastructure\LibraryApp.Infrastructure.csproj", "{6ABD1414-4B04-484A-B8BD-DB158F9367E2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.Tests", "LibraryApp.Tests\LibraryApp.Tests.csproj", "{A5A2C371-56CC-4030-8CA9-271421ADCC4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BFF6C509-D42C-4EE8-8312-24E7C3F9E92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -40,13 +35,12 @@ Global
 		{6149DEA5-5F7D-4C52-9C23-8B82095BE1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6149DEA5-5F7D-4C52-9C23-8B82095BE1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6149DEA5-5F7D-4C52-9C23-8B82095BE1B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6ABD1414-4B04-484A-B8BD-DB158F9367E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6ABD1414-4B04-484A-B8BD-DB158F9367E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6ABD1414-4B04-484A-B8BD-DB158F9367E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6ABD1414-4B04-484A-B8BD-DB158F9367E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A5A2C371-56CC-4030-8CA9-271421ADCC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A5A2C371-56CC-4030-8CA9-271421ADCC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5A2C371-56CC-4030-8CA9-271421ADCC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5A2C371-56CC-4030-8CA9-271421ADCC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

@@ -2,12 +2,14 @@ using AutoMapper;
 using FluentValidation;
 using LibraryApp.Application.Concrete;
 using LibraryApp.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryApp.API.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize(Roles = "Admin ,Librarian")]
     [ApiController]
     public class GenericController<T,TCreateDto,TUpdateDto,TListDto> : 
     ControllerBase

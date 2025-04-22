@@ -12,7 +12,8 @@ public class BookValidator : AbstractValidator<Book>
             .NotNull()
             .WithMessage("ID value cannot be null.")
             .GreaterThan(0)
-            .WithMessage("ID value must be greater than zero.");
+            .WithMessage("ID value must be greater than zero.")
+            .When(b => b.Id != 0);
 
         RuleFor(b => b.ISBN)
             .NotEmpty()

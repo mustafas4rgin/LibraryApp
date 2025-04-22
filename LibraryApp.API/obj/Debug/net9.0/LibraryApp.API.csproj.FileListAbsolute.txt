@@ -31,9 +31,7 @@
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/LibraryApp.Application.dll
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/LibraryApp.Data.dll
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/LibraryApp.Domain.dll
-/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/LibraryApp.Infrastructure.dll
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/LibraryApp.Application.pdb
-/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/LibraryApp.Infrastructure.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/LibraryApp.Data.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/LibraryApp.Domain.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/obj/Debug/net9.0/LibraryApp.API.csproj.AssemblyReference.cache
@@ -59,3 +57,12 @@
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/obj/Debug/net9.0/LibraryApp.API.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/obj/Debug/net9.0/LibraryApp.API.genruntimeconfig.cache
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/obj/Debug/net9.0/ref/LibraryApp.API.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/obj/Debug/net9.0/LibraryApp.API.sourcelink.json
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.API/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll

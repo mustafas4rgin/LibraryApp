@@ -50,13 +50,9 @@ internal class GenericRepository : IGenericRepository
 
         return entity;
     }
-    public async Task DeleteByIdAsync<T>(int id) where T : EntityBase
+    public async Task DeleteAsync<T>(T entity) where T : EntityBase
     {
-        var entity = await GetByIdAsync<T>(id);
-
-        if (entity is null)
-            return;
-
         _context.Set<T>().Remove(entity);
+        await _context.SaveChangesAsync();
     }
 }

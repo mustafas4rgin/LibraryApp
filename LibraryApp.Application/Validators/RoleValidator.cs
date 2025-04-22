@@ -11,7 +11,8 @@ public class RoleValidator : AbstractValidator<Role>
             .NotNull()
             .WithMessage("ID cannot be null.")
             .GreaterThan(0)
-            .WithMessage("ID value must be greater than zero.");
+            .WithMessage("ID value must be greater than zero.")
+            .When(r => r.Id != 0);
 
         RuleFor(r => r.Name)
             .NotEmpty()

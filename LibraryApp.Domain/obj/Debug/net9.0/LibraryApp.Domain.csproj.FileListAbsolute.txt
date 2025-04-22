@@ -9,3 +9,4 @@
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/refint/LibraryApp.Domain.dll
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/LibraryApp.Domain.pdb
 /Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/ref/LibraryApp.Domain.dll
+/Users/s4rgin/Desktop/Projects/LibraryApp/LibraryApp.Domain/obj/Debug/net9.0/LibraryApp.Domain.sourcelink.json

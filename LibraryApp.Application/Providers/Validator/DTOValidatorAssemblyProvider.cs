@@ -17,7 +17,8 @@ public class DTOValidatorAssemblyProvider
             typeof(UpdateRoleDTOValidator),
             typeof(UpdateUserDTOValidator),
             typeof(CreateBookRentalValidator),
-            typeof(UpdateBookRentalValidator)
+            typeof(UpdateBookRentalValidator),
+            typeof(UpdateUserDTOValidator)
         };
     }
 }

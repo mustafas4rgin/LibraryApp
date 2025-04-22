@@ -5,12 +5,14 @@ using LibraryApp.Domain.DTOs.Create;
 using LibraryApp.Domain.DTOs.List;
 using LibraryApp.Domain.DTOs.Update;
 using LibraryApp.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryApp.API.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize(Roles = "Admin")]
     [ApiController]
     public class RoleController : GenericController<Role,CreateRoleDTO,UpdateRoleDTO,RoleDTO>
     {
